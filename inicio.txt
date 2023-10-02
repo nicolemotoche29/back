@@ -1,0 +1,43 @@
+PS C:\Users\Equipo\api-veterinaria> cd front
+PS C:\Users\Equipo\api-veterinaria\front> npm init --y
+Wrote to C:\Users\Equipo\api-veterinaria\FRONT\package.json:
+
+{
+  "name": "front",
+  "version": "1.0.0",
+
+  "type": "module",
+
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+PS C:\Users\Equipo\api-veterinaria\front> npm i express bcryptjs mongoose dotenv nodemailer jsonwebtoken cors
+
+found 0 vulnerabilities
+
+PS C:\Users\Equipo\api-veterinaria\front> npm i nodemon -D
+
+PS C:\Users\Equipo\api-veterinaria\front> mkdir src
+PS C:\Users\Equipo\api-veterinaria\front>  cd src
+PS C:\Users\Equipo\api-veterinaria\front\src> mkdir config
+PS C:\Users\Equipo\api-veterinaria\front\src> mkdir controllers
+PS C:\Users\Equipo\api-veterinaria\front\src> mkdir helpers
+PS C:\Users\Equipo\api-veterinaria\front\src> mkdir middlewares
+PS C:\Users\Equipo\api-veterinaria\front\src> mkdir models
+PS C:\Users\Equipo\api-veterinaria\front\src> mkdir routers
+PS C:\Users\Equipo\api-veterinaria\front\src> Out-File -FilePath .\database.js -Force
+PS C:\Users\Equipo\api-veterinaria\front\src> Out-File -FilePath .\index.js -Force
+PS C:\Users\Equipo\api-veterinaria\front\src> Out-File -FilePath .\server.js -Force
+
+PS C:\Users\Equipo\api-veterinaria\front\src>cd..
+PS C:\Users\Equipo\api-veterinaria\front> Out-File -FilePath .\.env -Force
+PS C:\Users\Equipo\api-veterinaria\front> Out-File -FilePath .\.env.example -Force
+PS C:\Users\Equipo\api-veterinaria\front> Out-File -FilePath .\.gitignore-Force
